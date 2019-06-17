@@ -1,0 +1,29 @@
+@media (min-width:768px) and (max-width:1024px){
+  .project-list li {
+    width: 50%;
+  }
+   .project-list li img {
+	width: 100%;
+    }
+
+}
+@media (min-width:481px) and (max-width:767px) {
+  .project-list li {
+    width: 50%;
+
+  }
+ .project-list li img {
+	width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+  .project-list li {
+    width: 100%;
+
+  }
+    .project-list li img {
+	width: 100%;
+    }
+}
+

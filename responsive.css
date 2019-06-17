@@ -1,0 +1,78 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width:768px) and (max-width:1024px){
+  .project-list li {
+    width: 50%;
+  }
+   .project-list li img {
+	width: 100%;
+    }
+     .carousel-item img{
+        height: 500px;
+    }
+    .carousel-caption h1 {
+	font-size: 50px;
+}
+    .carousel-caption h2 {
+	font-size: 35px;
+}
+    .carousel-item img {
+	height: 400px;
+}
+}
+@media (min-width:481px) and (max-width:767px) {
+  .project-list li {
+    width: 50%;
+
+  }
+    .carousel-item img{
+        height: 500px;
+    }
+
+  .single-feature{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+    .carousel-caption h1 {
+	font-size: 45px;
+    }
+    .carousel-caption h2 {
+	font-size: 25px;
+    }
+    .carousel-item img {
+	height: 400px;
+}
+}
+
+@media (max-width: 480px) {
+  .project-list li {
+    width: 100%;
+
+  }
+  .single-feature{
+    margin-bottom: 30px;
+    text-align: center
+  }
+     .carousel-item img{
+        height: 500px;
+    }
+    .carousel-caption h1 {
+	font-size: 35px;
+}
+.carousel-caption h2 {
+	font-size: 16px;
+}
+   .carousel-caption p {
+	font-size: 12px;
+	line-height: 0px;
+}
+.carousel-item img {
+	height: 370px;
+}
+   
+}
